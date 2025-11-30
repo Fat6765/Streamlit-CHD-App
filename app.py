@@ -21,7 +21,7 @@ def lowercase_variable(X):
 @st.cache_resource
 def load_model():
     # On utilise le chemin complet qui fonctionne chez vous
-    path = '/Users/fathiabdeladim/Documents/Model.pkl'
+    path = 'Model.pkl'
     return joblib.load(path)
 
 try:
